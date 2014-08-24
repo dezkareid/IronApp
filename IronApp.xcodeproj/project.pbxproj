@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82CE477D19A9562F002E29FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CE477C19A9562F002E29FA /* Foundation.framework */; };
+		82CE477F19A9562F002E29FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CE477E19A9562F002E29FA /* CoreGraphics.framework */; };
+		82CE478119A9562F002E29FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CE478019A9562F002E29FA /* UIKit.framework */; };
+		82CE478719A9562F002E29FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82CE478519A9562F002E29FA /* InfoPlist.strings */; };
+		82CE478919A9562F002E29FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CE478819A9562F002E29FA /* main.m */; };
+		82CE478D19A9562F002E29FA /* IAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CE478C19A9562F002E29FA /* IAAppDelegate.m */; };
+		82CE479019A9562F002E29FA /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CE478E19A9562F002E29FA /* Main_iPhone.storyboard */; };
+		82CE479319A9562F002E29FA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CE479119A9562F002E29FA /* Main_iPad.storyboard */; };
+		82CE479619A9562F002E29FA /* IAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CE479519A9562F002E29FA /* IAViewController.m */; };
+		82CE479819A9562F002E29FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CE479719A9562F002E29FA /* Images.xcassets */; };
+		82CE479F19A95630002E29FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CE479E19A95630002E29FA /* XCTest.framework */; };
+		82CE47A019A95630002E29FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CE477C19A9562F002E29FA /* Foundation.framework */; };
+		82CE47A119A95630002E29FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CE478019A9562F002E29FA /* UIKit.framework */; };
+		82CE47A919A95630002E29FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82CE47A719A95630002E29FA /* InfoPlist.strings */; };
+		82CE47AB19A95630002E29FA /* IronAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CE47AA19A95630002E29FA /* IronAppTests.m */; };
+		82CE47B819A958AC002E29FA /* repulsor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 82CE47B719A958AB002E29FA /* repulsor.mp3 */; };
+		82CE47BC19A95A20002E29FA /* ark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82CE47BB19A95A20002E29FA /* ark.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82CE47A219A95630002E29FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82CE477119A9562F002E29FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82CE477819A9562F002E29FA;
+			remoteInfo = IronApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82CE477919A9562F002E29FA /* IronApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IronApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CE477C19A9562F002E29FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82CE477E19A9562F002E29FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		82CE478019A9562F002E29FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		82CE478419A9562F002E29FA /* IronApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IronApp-Info.plist"; sourceTree = "<group>"; };
+		82CE478619A9562F002E29FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82CE478819A9562F002E29FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82CE478A19A9562F002E29FA /* IronApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IronApp-Prefix.pch"; sourceTree = "<group>"; };
+		82CE478B19A9562F002E29FA /* IAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAAppDelegate.h; sourceTree = "<group>"; };
+		82CE478C19A9562F002E29FA /* IAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IAAppDelegate.m; sourceTree = "<group>"; };
+		82CE478F19A9562F002E29FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		82CE479219A9562F002E29FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		82CE479419A9562F002E29FA /* IAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAViewController.h; sourceTree = "<group>"; };
+		82CE479519A9562F002E29FA /* IAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IAViewController.m; sourceTree = "<group>"; };
+		82CE479719A9562F002E29FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		82CE479D19A95630002E29FA /* IronAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IronAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CE479E19A95630002E29FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		82CE47A619A95630002E29FA /* IronAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IronAppTests-Info.plist"; sourceTree = "<group>"; };
+		82CE47A819A95630002E29FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82CE47AA19A95630002E29FA /* IronAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IronAppTests.m; sourceTree = "<group>"; };
+		82CE47B719A958AB002E29FA /* repulsor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = repulsor.mp3; sourceTree = "<group>"; };
+		82CE47BB19A95A20002E29FA /* ark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ark.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82CE477619A9562F002E29FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CE477F19A9562F002E29FA /* CoreGraphics.framework in Frameworks */,
+				82CE478119A9562F002E29FA /* UIKit.framework in Frameworks */,
+				82CE477D19A9562F002E29FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CE479A19A95630002E29FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CE479F19A95630002E29FA /* XCTest.framework in Frameworks */,
+				82CE47A119A95630002E29FA /* UIKit.framework in Frameworks */,
+				82CE47A019A95630002E29FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82CE477019A9562F002E29FA = {
+			isa = PBXGroup;
+			children = (
+				82CE478219A9562F002E29FA /* IronApp */,
+				82CE47A419A95630002E29FA /* IronAppTests */,
+				82CE477B19A9562F002E29FA /* Frameworks */,
+				82CE477A19A9562F002E29FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82CE477A19A9562F002E29FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82CE477919A9562F002E29FA /* IronApp.app */,
+				82CE479D19A95630002E29FA /* IronAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82CE477B19A9562F002E29FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82CE477C19A9562F002E29FA /* Foundation.framework */,
+				82CE477E19A9562F002E29FA /* CoreGraphics.framework */,
+				82CE478019A9562F002E29FA /* UIKit.framework */,
+				82CE479E19A95630002E29FA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82CE478219A9562F002E29FA /* IronApp */ = {
+			isa = PBXGroup;
+			children = (
+				82CE47B419A957B0002E29FA /* Resources */,
+				82CE478B19A9562F002E29FA /* IAAppDelegate.h */,
+				82CE478C19A9562F002E29FA /* IAAppDelegate.m */,
+				82CE478E19A9562F002E29FA /* Main_iPhone.storyboard */,
+				82CE479119A9562F002E29FA /* Main_iPad.storyboard */,
+				82CE479419A9562F002E29FA /* IAViewController.h */,
+				82CE479519A9562F002E29FA /* IAViewController.m */,
+				82CE479719A9562F002E29FA /* Images.xcassets */,
+				82CE478319A9562F002E29FA /* Supporting Files */,
+			);
+			path = IronApp;
+			sourceTree = "<group>";
+		};
+		82CE478319A9562F002E29FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82CE478419A9562F002E29FA /* IronApp-Info.plist */,
+				82CE478519A9562F002E29FA /* InfoPlist.strings */,
+				82CE478819A9562F002E29FA /* main.m */,
+				82CE478A19A9562F002E29FA /* IronApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82CE47A419A95630002E29FA /* IronAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				82CE47AA19A95630002E29FA /* IronAppTests.m */,
+				82CE47A519A95630002E29FA /* Supporting Files */,
+			);
+			path = IronAppTests;
+			sourceTree = "<group>";
+		};
+		82CE47A519A95630002E29FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82CE47A619A95630002E29FA /* IronAppTests-Info.plist */,
+				82CE47A719A95630002E29FA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82CE47B419A957B0002E29FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				82CE47B619A95810002E29FA /* sounds */,
+				82CE47B719A958AB002E29FA /* repulsor.mp3 */,
+				82CE47B519A95809002E29FA /* img */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		82CE47B519A95809002E29FA /* img */ = {
+			isa = PBXGroup;
+			children = (
+				82CE47BB19A95A20002E29FA /* ark.jpg */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		82CE47B619A95810002E29FA /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82CE477819A9562F002E29FA /* IronApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82CE47AE19A95630002E29FA /* Build configuration list for PBXNativeTarget "IronApp" */;
+			buildPhases = (
+				82CE477519A9562F002E29FA /* Sources */,
+				82CE477619A9562F002E29FA /* Frameworks */,
+				82CE477719A9562F002E29FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IronApp;
+			productName = IronApp;
+			productReference = 82CE477919A9562F002E29FA /* IronApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82CE479C19A95630002E29FA /* IronAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82CE47B119A95630002E29FA /* Build configuration list for PBXNativeTarget "IronAppTests" */;
+			buildPhases = (
+				82CE479919A95630002E29FA /* Sources */,
+				82CE479A19A95630002E29FA /* Frameworks */,
+				82CE479B19A95630002E29FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82CE47A319A95630002E29FA /* PBXTargetDependency */,
+			);
+			name = IronAppTests;
+			productName = IronAppTests;
+			productReference = 82CE479D19A95630002E29FA /* IronAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82CE477119A9562F002E29FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Joel Humberto Gómez Paredes";
+				TargetAttributes = {
+					82CE479C19A95630002E29FA = {
+						TestTargetID = 82CE477819A9562F002E29FA;
+					};
+				};
+			};
+			buildConfigurationList = 82CE477419A9562F002E29FA /* Build configuration list for PBXProject "IronApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82CE477019A9562F002E29FA;
+			productRefGroup = 82CE477A19A9562F002E29FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82CE477819A9562F002E29FA /* IronApp */,
+				82CE479C19A95630002E29FA /* IronAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82CE477719A9562F002E29FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CE47BC19A95A20002E29FA /* ark.jpg in Resources */,
+				82CE47B819A958AC002E29FA /* repulsor.mp3 in Resources */,
+				82CE479319A9562F002E29FA /* Main_iPad.storyboard in Resources */,
+				82CE479819A9562F002E29FA /* Images.xcassets in Resources */,
+				82CE479019A9562F002E29FA /* Main_iPhone.storyboard in Resources */,
+				82CE478719A9562F002E29FA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CE479B19A95630002E29FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CE47A919A95630002E29FA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82CE477519A9562F002E29FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CE478D19A9562F002E29FA /* IAAppDelegate.m in Sources */,
+				82CE478919A9562F002E29FA /* main.m in Sources */,
+				82CE479619A9562F002E29FA /* IAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CE479919A95630002E29FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CE47AB19A95630002E29FA /* IronAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82CE47A319A95630002E29FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82CE477819A9562F002E29FA /* IronApp */;
+			targetProxy = 82CE47A219A95630002E29FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82CE478519A9562F002E29FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82CE478619A9562F002E29FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82CE478E19A9562F002E29FA /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82CE478F19A9562F002E29FA /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		82CE479119A9562F002E29FA /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82CE479219A9562F002E29FA /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		82CE47A719A95630002E29FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82CE47A819A95630002E29FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82CE47AC19A95630002E29FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82CE47AD19A95630002E29FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82CE47AF19A95630002E29FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IronApp/IronApp-Prefix.pch";
+				INFOPLIST_FILE = "IronApp/IronApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82CE47B019A95630002E29FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IronApp/IronApp-Prefix.pch";
+				INFOPLIST_FILE = "IronApp/IronApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		82CE47B219A95630002E29FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IronApp.app/IronApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IronApp/IronApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IronAppTests/IronAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		82CE47B319A95630002E29FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IronApp.app/IronApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IronApp/IronApp-Prefix.pch";
+				INFOPLIST_FILE = "IronAppTests/IronAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82CE477419A9562F002E29FA /* Build configuration list for PBXProject "IronApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CE47AC19A95630002E29FA /* Debug */,
+				82CE47AD19A95630002E29FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82CE47AE19A95630002E29FA /* Build configuration list for PBXNativeTarget "IronApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CE47AF19A95630002E29FA /* Debug */,
+				82CE47B019A95630002E29FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82CE47B119A95630002E29FA /* Build configuration list for PBXNativeTarget "IronAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CE47B219A95630002E29FA /* Debug */,
+				82CE47B319A95630002E29FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82CE477119A9562F002E29FA /* Project object */;
+}

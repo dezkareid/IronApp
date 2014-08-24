@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="IAViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Jb-HN-4ly"/>
+                        <viewControllerLayoutGuide type="bottom" id="g6e-bu-JuB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="As5-de-pAc">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ark.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="2s9-Ej-Ndb">
+                                <rect key="frame" x="100" y="228" width="568" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="2s9-Ej-Ndb" secondAttribute="height" multiplier="1:1" id="sMy-nM-VYN"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="2s9-Ej-Ndb" secondAttribute="trailing" constant="100" id="Aov-g5-s4c"/>
+                            <constraint firstItem="g6e-bu-JuB" firstAttribute="top" secondItem="2s9-Ej-Ndb" secondAttribute="bottom" constant="228" id="Jbi-OF-I5N"/>
+                            <constraint firstItem="2s9-Ej-Ndb" firstAttribute="leading" secondItem="As5-de-pAc" secondAttribute="leading" constant="100" id="K4j-dU-knc"/>
+                            <constraint firstItem="2s9-Ej-Ndb" firstAttribute="top" secondItem="1Jb-HN-4ly" secondAttribute="bottom" constant="208" id="QZN-Bk-Elj"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ark.jpg" width="563" height="600"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
